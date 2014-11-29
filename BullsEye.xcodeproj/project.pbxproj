@@ -11,8 +11,9 @@
 		3827C7841A290AA100AFBB58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3827C7831A290AA100AFBB58 /* ViewController.swift */; };
 		3827C7871A290AA100AFBB58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3827C7851A290AA100AFBB58 /* Main.storyboard */; };
 		3827C7891A290AA100AFBB58 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3827C7881A290AA100AFBB58 /* Images.xcassets */; };
-		3827C78C1A290AA100AFBB58 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3827C78A1A290AA100AFBB58 /* LaunchScreen.xib */; };
 		3827C7981A290AA100AFBB58 /* BullsEyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3827C7971A290AA100AFBB58 /* BullsEyeTests.swift */; };
+		3827C7A21A29397E00AFBB58 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3827C7A11A29397E00AFBB58 /* AboutViewController.swift */; };
+		3827C7A41A29469700AFBB58 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 3827C7A31A29469700AFBB58 /* BullsEye.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,10 +33,11 @@
 		3827C7831A290AA100AFBB58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3827C7861A290AA100AFBB58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3827C7881A290AA100AFBB58 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		3827C78B1A290AA100AFBB58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3827C7911A290AA100AFBB58 /* BullsEyeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BullsEyeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3827C7961A290AA100AFBB58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3827C7971A290AA100AFBB58 /* BullsEyeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullsEyeTests.swift; sourceTree = "<group>"; };
+		3827C7A11A29397E00AFBB58 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		3827C7A31A29469700AFBB58 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +79,12 @@
 		3827C77E1A290AA100AFBB58 /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
+				3827C7A31A29469700AFBB58 /* BullsEye.html */,
 				3827C7811A290AA100AFBB58 /* AppDelegate.swift */,
 				3827C7831A290AA100AFBB58 /* ViewController.swift */,
+				3827C7A11A29397E00AFBB58 /* AboutViewController.swift */,
 				3827C7851A290AA100AFBB58 /* Main.storyboard */,
 				3827C7881A290AA100AFBB58 /* Images.xcassets */,
-				3827C78A1A290AA100AFBB58 /* LaunchScreen.xib */,
 				3827C77F1A290AA100AFBB58 /* Supporting Files */,
 			);
 			path = BullsEye;
@@ -193,7 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3827C7871A290AA100AFBB58 /* Main.storyboard in Resources */,
-				3827C78C1A290AA100AFBB58 /* LaunchScreen.xib in Resources */,
+				3827C7A41A29469700AFBB58 /* BullsEye.html in Resources */,
 				3827C7891A290AA100AFBB58 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3827C7A21A29397E00AFBB58 /* AboutViewController.swift in Sources */,
 				3827C7841A290AA100AFBB58 /* ViewController.swift in Sources */,
 				3827C7821A290AA100AFBB58 /* AppDelegate.swift in Sources */,
 			);
@@ -242,14 +246,6 @@
 				3827C7861A290AA100AFBB58 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3827C78A1A290AA100AFBB58 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3827C78B1A290AA100AFBB58 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
